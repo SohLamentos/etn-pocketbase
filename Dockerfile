@@ -12,4 +12,4 @@ WORKDIR /app
 
 EXPOSE 8080
 
-CMD ["sh", "-c", "./pocketbase serve --http=0.0.0.0:${PORT:-8080} --dir=/pb_data"]
+CMD ["sh", "-c", "./pocketbase serve --http=0.0.0.0:${PORT:-8080}"]
